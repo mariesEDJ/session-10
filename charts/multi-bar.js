@@ -1,9 +1,9 @@
-Vue.component('bar-chart', {
+Vue.component('multibar-chart', {
   extends: VueChartJs.Bar,
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ["AB","BC","MB","NB","NL","NS","NT","ON","PE","QC","SK","YT","NONE Specified"],
+      labels: ["Mediterranean Migrant Crisis","Protests of Islam critical PEGIDA movement in Dresden","Financial Crisis in Greece","Ukraine conflict between Russia and Western Countries"],
       datasets: [
         {
           label: 'Rhinoceros tués chaque année par le br',
